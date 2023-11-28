@@ -34,7 +34,7 @@ const jsonData = `{
 
 
 const parsedData = JSON.parse(jsonData);
-console.log(parsedData)
+console.log(parsedData);
 /* the output for the parsedData
  $ node script.js
 {
