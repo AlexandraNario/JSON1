@@ -35,7 +35,21 @@ const jsonData = `{
 
 const parsedData = JSON.parse(jsonData);
 console.log(parsedData)
-
+/* the output for the parsedData
+ $ node script.js
+{
+  users: {
+    id: 1,
+    name: 'John Doe',
+    email: 'john@example.com',
+    address: { city: 'New York', zipcode: '10001' }
+  },
+  products: [
+    { id: 101, name: 'Laptop', price: 999.99 },
+    { id: 102, name: 'Smartphone', price: 499.99 }
+  ]
+}
+*/
 
 //we can tell our html element to use the data that we gathered from json to js
 //having it be parsed and then accessable to the client side
